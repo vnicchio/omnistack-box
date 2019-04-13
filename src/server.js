@@ -16,7 +16,7 @@ io.on('connection', socket => {
     })
 });
 
-mongoose.connect('mongodb://localhost:27017/omnistack-dropbox', {
+mongoose.connect('mongodb+srv://user:mongo@cluster0-ksfkk.mongodb.net/omnistack-dropbox?retryWrites=true', {
     useNewUrlParser: true
 });
 
